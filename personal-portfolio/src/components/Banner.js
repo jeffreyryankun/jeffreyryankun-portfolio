@@ -66,7 +66,8 @@ export const Banner = () => {
                   <p>I take pride in transforming concepts into functional and visually appealing digital experiences. Please take a moment to explore my work, and don't hesitate to reach out if you have an exciting project in mind. </p>
                   <p>Let's collaborate and create something amazing together! 😊 </p>
                   
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.location.href = '#connect'}>Let’s Connect <ArrowRightCircle size={25} /></button>
+
               </div>}
             </TrackVisibility>
           </Col>
